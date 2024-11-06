@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Quotebox{
+    display: flex;
+    justify-content: center;
+}
+.bluebox{
+    height: 130px;
+    width: 98%;
+    background-image: url("https://img.freepik.com/premium-vector/blue-background-with-gradient-concept_32582-1633.jpg?semt=ais_hybrid");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding-left: 20px;
+}
+.blueboxh1{
+    font-weight: 500;
+    margin-top: 30px;
+}
+.blueboxh4{
+    font-weight: 300;
+    margin-top: 10px;
+    color: rgb(201, 201, 222);
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.productdetailsBox{
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+}
+.JobApplyHeader{
+    display: flex;
+    align-items: center;
+}
+.JobHeadingIcon{
+    color: rgb(2, 92, 238);
+    font-size: 55px;
+}
+.jobheading{
+    margin-left: 15px;
+}
+.jobheading h6{
+    color: grey;
+    font-weight: 500;
+    margin-top: 8px;
+}
+.applybtn{
+    color: white;
+    background-color: rgb(2, 92, 238);
+    padding: 10px 15px;
+    margin-left: 10px;
+}
+.savebtn{
+    color: rgb(2, 92, 238);
+    padding: 8px 14px;
+}
+
+.JobDescriptionContainer {
+    margin-top: 30px;
+}

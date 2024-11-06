@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.jobFilterMainBox{
+    display: flex;
+    justify-content: center;
+}
+.jobfilterbox{
+    display: flex;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.searchdropdown{
+    border: 1px solid rgb(215, 212, 212);
+    padding: 7px;
+    border-radius: 5px;
+}
+.searchdropdown select{
+    border: none;
+}
+.searchbox{
+    width: 25%;
+}
+.applybtn{
+    color: white;
+    background-color: rgb(47, 47, 246);
+    border: none;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+.searchdropdown label{
+    color: grey;
+    font-size: 13px;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.productPageMainBox{
+    display: flex;
+    justify-content: center;
+}
+.productPagebox{
+    padding: 15px 25px;
+    background-color: rgb(240, 237, 237);
+    width: 98%;
+}
+.productPageinnerbox{
+    display: flex;
+    justify-content: space-between;
+}
+.productCardsBoxL{
+    width: 30%;
+}
+.productDesBoxR{
+    width: 69%;
+    background-color: white;
+}
+.jobPostBox{  
+    display: flex;
+    justify-content: space-between;
+}
+.JobPostBoxLeft p{
+    font-size: 10px;
+    color: grey;
+    padding-top: 5px;
+}
+.JobPostBoxRight label{
+    font-size: 12px;
+    color: rgb(133, 131, 131);
+}
+.JobPostBoxRight{
+    border: 1px solid rgb(155, 153, 153);
+    background-color: white;
+}
+.JobPostBoxRight select{
+    border: none;
+}

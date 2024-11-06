@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.jobsingleCard{
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.productDesignBox{
+    display: flex;
+    padding: 10px;
+}
+.ratingBox{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.productLogo{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.productDesc{
+    width: 80%;
+}
+.productpinned{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.twitterLogo{
+    color: rgb(0, 94, 255);
+    font-size: 30px;
+}
+.productDesc p{
+    font-size: 14px;
+    color: grey;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.companyName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.companyName h5{
+    margin-left: 5px;
+    font-weight: 300;
+}
+.staricon{
+    color: orange;
+}
+.applicants{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.verification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.rating h5{
+    font-weight: 300;
+    color: rgb(74, 73, 73);
+}
+.applicants h5{
+    font-weight: 300;
+    color: rgb(74, 73, 73);
+}
+.verification h5{
+    font-weight: 300;
+    color: rgb(74, 73, 73);
+    margin-left: 5px;
+}
